@@ -1,14 +1,11 @@
 #Define f as the list of each Fibonacci Number to a given index.
 f = [0, 1]
-''
-Function: Fibonacci
-This function appends all of the numbers of the Fibonacci sequence
-to a given index, n.
 
-n - Passed in index of Fibonacci Sequence.
-
-returns The Fibonacci Number at that index, n.
-''
+# Function: Fibonacci
+# This function appends all of the numbers of the Fibonacci sequence
+# to a given index, n.
+# n - Passed in index of Fibonacci Sequence.
+# returns The Fibonacci Number at that index, n.
 def Fibonacci(n):
     #Check to see if n is the length of the array (next index).
     if n == len(f):
@@ -26,10 +23,8 @@ def Fibonacci(n):
             a = a + 1
     return f[n]
 
-''
-TESTER CODE
-print(Fibonacci(1000))
+# TESTER CODE
+# print(Fibonacci(1000))
 
-for x in range(0, 101):
-    print(Fibonacci(x))
-''
+# for x in range(0, 101):
+#     print(Fibonacci(x))
