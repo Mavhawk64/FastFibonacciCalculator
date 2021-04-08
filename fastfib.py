@@ -25,7 +25,7 @@ def Fibonacci(n):
             a = a + 1
     return f[n]
 '''
-TESTER CODE
+#TESTER CODE
 print(Fibonacci(1000))
 
 for x in range(0, 101):
