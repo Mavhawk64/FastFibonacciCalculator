@@ -12,7 +12,7 @@ def Fibonacci(n):
     #Check to see if n is the length of the array (next index).
     if n == len(f):
         #Append the next Fib Num.
-        f.append(f[n-1] + f[n-2])
+        f.append(f[n - 1] + f[n - 2])
     #Check if n is larger than the length of the array (outside of the range of the numbers).
     elif n > len(f):
         #Define a to be the length of f (the next index).
